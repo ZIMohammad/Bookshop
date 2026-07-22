@@ -3,13 +3,36 @@ body {
     color: #333; /* Dark text color */
     background-color: #333; /* Light grey background */
 }
+h1 {
+	padding-right: 1rem;
+	padding-left: 2rem;
+}
 
 /* Header */
 header {
     background-color: #28a745; /* Green accent for the header */
     padding: 1rem 0;
     text-align: center;
+border-radius: 0px;
+background: #28a745;
+box-shadow:  12px 12px 28px #141414,
+             -12px -12px 28px #525252;
+color: #333;
+width: 100%;
 }
+
+footer {
+    background-color: #28a745; /* Green accent for the header */
+    padding: 1rem 0;
+    text-align: center;
+border-radius: 0px;
+background: #28a745;
+box-shadow: inset 12px 12px 28px #10431c,
+            inset -12px -12px 28px #40ff6e;
+color: #333;
+width: 100%;
+}
+
 
 img {
 	max-height:80%;
@@ -17,50 +40,39 @@ img {
         width: auto;
         height: auto;
 	object-fit: contain;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+img:hover {
+box-shadow: inset 12px 12px 28px #222222,
+            inset -12px -12px 28px #444444;
 }
 
-ul li {
-  float: left;
+button {
+font-family: Times;
+font-size:12pt;
+padding: 20px 40px;
+border-radius: 30px;
+background: linear-gradient(145deg, #373737, #2e2e2e);
+box-shadow:  12px 12px 28px #222222,
+             -12px -12px 28px #444444;
+cursor: pointer;
+color:#fff;
 }
 
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+button:hover {
+border-radius: 30px;
+background: linear-gradient(145deg, #2e2e2e, #373737);
+box-shadow:  12px 12px 28px #222222,
+             -12px -12px 28px #444444;
+color:#fff;
 }
-
-ul li a:hover {
-  background-color: #111111;
-}
-
-/* Navigation Bar */
-.navbar {
-    padding: 0.5rem 1rem;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin-right: 1rem;
-}
-
-.navbar a:hover {
-    color: #45a049;
-}
-
 /* Product List */
 .product-card {
-    border: 1px solid #ddd;
+padding-left:2rem;
     padding: 2rem;
     margin-bottom: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -71,6 +83,8 @@ ul li a:hover {
 	color:white;
 	max-height:500px;
 	min-width:125px;
+box-shadow: inset 12px 12px 28px #222222,
+            inset -12px -12px 28px #444444;
 }
 
 .add2cart {
@@ -88,6 +102,34 @@ ul li a:hover {
 
 .book-link {
 }
+
+.header-button {
+padding-left: 2rem;
+padding: 25px 25px;
+border-radius: 25px;
+background: linear-gradient(145deg, #2bb34a, #24963e);
+box-shadow:  12px 12px 28px #10431c,
+             -12px -12px 28px #40ff6e;
+}
+.header-button:hover {
+border-radius: 25px;
+background: linear-gradient(145deg, #24963e, #2bb34a);
+box-shadow:  12px 12px 28px #10431c,
+             -12px -12px 28px #40ff6e;
+}
+.header-button:active {
+border-radius: 25px;
+background: linear-gradient(145deg, #24963e, #2bb34a);
+box-shadow: inset 12px 12px 28px #10431c,
+            inset -12px -12px 28px #40ff6e;
+}
+
+.header-logo {
+width: 100px;
+height: 100px;
+padding-left: 2em;
+}
+
 
 /* Footer */
 footer {
