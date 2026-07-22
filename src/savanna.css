@@ -127,11 +127,13 @@ box-shadow: inset 12px 12px 28px #10431c,
 .header-logo {
 width: 100px;
 height: 100px;
-padding-left: 2em;
+padding-left: 12px;
+padding-right: 12px;
+border-radius:50px;
+box-shadow: inset 12px 12px 28px #10431c,
+            inset -12px -12px 28px #40ff6e;
 }
 
-
-/* Footer */
 footer {
     background-color: #28a745;
     padding: 1rem 0;
