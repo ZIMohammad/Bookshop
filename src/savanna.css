@@ -1,16 +1,15 @@
 body {
     font-family: Times;
-    color: #333; /* Dark text color */
+    color: #eee; /* Dark text color */
     background-color: #333; /* Light grey background */
 }
 h1 {
-	padding-right: 1rem;
+	padding-right: 2rem;
 	padding-left: 2rem;
 }
 
-/* Header */
 header {
-    background-color: #28a745; /* Green accent for the header */
+    background-color: #28a745;
     padding: 1rem 0;
     text-align: center;
 border-radius: 0px;
@@ -47,8 +46,6 @@ img {
 }
 
 img:hover {
-box-shadow: inset 12px 12px 28px #222222,
-            inset -12px -12px 28px #444444;
 }
 
 button {
@@ -70,6 +67,9 @@ box-shadow:  12px 12px 28px #222222,
              -12px -12px 28px #444444;
 color:#fff;
 }
+button:active {
+box-shadow: none;
+}
 /* Product List */
 .product-card {
 padding-left:2rem;
@@ -85,6 +85,20 @@ padding-left:2rem;
 	min-width:125px;
 box-shadow: inset 12px 12px 28px #222222,
             inset -12px -12px 28px #444444;
+}
+
+.cart-card {
+    width: 40%;
+    border-radius: 50px;
+    box-shadow: inset 12px 12px 28px #222222,
+            inset -12px -12px 28px #444444;
+	max-height: 25%;
+	height: 10%;
+
+}
+.card-icon {
+    text-align:center;
+    width:10%;
 }
 
 .add2cart {
@@ -132,6 +146,17 @@ padding-right: 12px;
 border-radius:100%;
 box-shadow: inset 12px 12px 28px #10431c,
             inset -12px -12px 28px #40ff6e;
+}
+.header-logo:hover {
+background: linear-gradient(145deg, #24963e, #2bb34a);
+box-shadow: inset 6px 6px 14px #10431c,
+            inset -6px -6px 14px #40ff6e;
+
+}
+.header-logo:active {
+box-shadow: inset 0px 0px 25px #10431c,
+            inset 0px 0px 25px #40ff6e;
+
 }
 
 footer {
