@@ -22,12 +22,12 @@ width: 100%;
 
 footer {
     background-color: #28a745; /* Green accent for the header */
-    padding: 1rem 0;
+    padding: .5rem 0;
     text-align: center;
 border-radius: 0px;
 background: #28a745;
-box-shadow: inset 12px 12px 28px #10431c,
-            inset -12px -12px 28px #40ff6e;
+box-shadow: inset 12px 12px 5px #10431c,
+            inset -12px -12px 5px #40ff6e;
 color: #333;
 width: 100%;
 }
@@ -83,8 +83,8 @@ padding-left:2rem;
 	color:white;
 	max-height:500px;
 	min-width:125px;
-box-shadow: inset 12px 12px 28px #222222,
-            inset -12px -12px 28px #444444;
+box-shadow: inset 15px 15px 2px #222222,
+            inset -15px -15px 2px #444444;
 }
 
 .cart-card {
@@ -110,8 +110,7 @@ box-shadow: inset 12px 12px 28px #222222,
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  cursor: pointer;
-	border-radius: 15px;
+  border-radius: 15px;
 }
 
 .book-link {
@@ -157,6 +156,24 @@ box-shadow: inset 6px 6px 14px #10431c,
 box-shadow: inset 0px 0px 25px #10431c,
             inset 0px 0px 25px #40ff6e;
 
+}
+
+.qty-input {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.product-qty {
+	width: 30px;
+	height: 30px;
+	min-width: 0;
+	display: inline-block;
+	text-align: center;
+	appearance: textfield;
+	&::-webkit-outer-spin-button,
+	&::-webkit-inner-spin-button {
+		appearance: none;
+		margin: 0;
+	}
 }
 
 footer {

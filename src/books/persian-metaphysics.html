@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Development of Metaphysics in Persia</title>
     <link rel="stylesheet" href="../../src/savanna.css">
-    <style>
-    </style>
+    <style></style>
+    <script src="../../src/script.js"></script>
 </head>
 <body>
     <header>
@@ -28,7 +28,12 @@
             <h3>The Development of Metaphysics in Persia</h3>
             <h4>Muhammad Iqbal</h4>
             <p>$15.00</p>
-            <button>Add to Cart</button>
+	    <div class="qty-input">
+	<button class="qty-count qty-count--minus" data-action="minus" type="button">—</button>&emsp;
+	<input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">&emsp;
+	<button class="qty-count qty-count--add" data-action="add" type="button">+</button>
+	    </div>
+            <button float="right">Add to Cart</button>
         </div>
     </section>
 
@@ -38,6 +43,5 @@
         </div>
     </footer>
 
-    <script src="../../src/script.js"></script>
 </body>
 </html>
